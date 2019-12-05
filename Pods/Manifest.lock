@@ -1,0 +1,22 @@
+PODS:
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - Swifter (1.4.7)
+
+DEPENDENCIES:
+  - NVActivityIndicatorView
+  - Swifter
+
+SPEC REPOS:
+  trunk:
+    - NVActivityIndicatorView
+    - Swifter
+
+SPEC CHECKSUMS:
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Swifter: 2327ef5d872c638aebab79646ce494af508b0c8f
+
+PODFILE CHECKSUM: 79173da22882ecbcb4aabd1befd62fe4c51f39d6
+
+COCOAPODS: 1.8.3

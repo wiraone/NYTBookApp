@@ -1,0 +1,6 @@
+framework module Pods_NYTBookApp_NYTBookAppUITests {
+  umbrella header "Pods-NYTBookApp-NYTBookAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
