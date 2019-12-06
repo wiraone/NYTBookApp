@@ -31,7 +31,7 @@ To run unit testing just use command + U
 
 ## Code Coverage
 
-![code coverage] (https://github.com/wiraone/NYTBookApp/blob/master/Screenshot/Screenshot%202019-12-06%20at%203.57.25%20PM.png)
+![code coverage](https://github.com/wiraone/NYTBookApp/blob/master/Screenshot/Screenshot%202019-12-06%20at%203.57.25%20PM.png)
 
 ## Built With
 
