@@ -1,22 +1,26 @@
 PODS:
+  - Nuke (8.3.1)
   - NVActivityIndicatorView (4.8.0):
     - NVActivityIndicatorView/Presenter (= 4.8.0)
   - NVActivityIndicatorView/Presenter (4.8.0)
   - Swifter (1.4.7)
 
 DEPENDENCIES:
+  - Nuke
   - NVActivityIndicatorView
   - Swifter
 
 SPEC REPOS:
   trunk:
+    - Nuke
     - NVActivityIndicatorView
     - Swifter
 
 SPEC CHECKSUMS:
+  Nuke: 85fb80f8df0cb26c28d2f4e0cb7fb93bcd6548d3
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   Swifter: 2327ef5d872c638aebab79646ce494af508b0c8f
 
-PODFILE CHECKSUM: 79173da22882ecbcb4aabd1befd62fe4c51f39d6
+PODFILE CHECKSUM: 471d1a67198847d17ad3fa59c8f13b6c9de9a8c0
 
 COCOAPODS: 1.8.3

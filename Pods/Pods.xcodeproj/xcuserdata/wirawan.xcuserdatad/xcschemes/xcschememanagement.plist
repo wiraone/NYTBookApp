@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-NYTBookApp-NYTBookAppUITests.xcscheme</key>
+		<key>Nuke.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -20,6 +20,11 @@
 			<false/>
 		</dict>
 		<key>Pods-NYTBookAppTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-NYTBookAppUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework

@@ -7,7 +7,25 @@
 		<key>NYTBookApp.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>71B3201E2395DC0D001D04E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71B320372395DC0E001D04E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>71B320422395DC0F001D04E6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

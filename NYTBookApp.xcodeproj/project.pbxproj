@@ -3,22 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714783772399678500CC4041 /* BookListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714783762399678500CC4041 /* BookListPresenterTests.swift */; };
+		71478379239976B900CC4041 /* BookListModetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71478378239976B900CC4041 /* BookListModetTests.swift */; };
+		7147837B23997A1E00CC4041 /* BookDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7147837A23997A1E00CC4041 /* BookDetailPresenter.swift */; };
+		7147837D23997A4000CC4041 /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7147837C23997A4000CC4041 /* BookDetailViewController.swift */; };
+		7147837F239A08BD00CC4041 /* BookCoreDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7147837E239A08BD00CC4041 /* BookCoreDataParser.swift */; };
+		71478381239A22A800CC4041 /* BookParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71478380239A22A800CC4041 /* BookParserTests.swift */; };
+		71478383239A251400CC4041 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = 71478382239A251400CC4041 /* book.json */; };
+		71478385239A30D200CC4041 /* BookCoreDataParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71478384239A30D200CC4041 /* BookCoreDataParserTests.swift */; };
+		71AE90962398AF2B0027B9C6 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = 71AE90952398AF2B0027B9C6 /* book.json */; };
+		71AE90982398B0560027B9C6 /* HTTPStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90972398B0560027B9C6 /* HTTPStubs.swift */; };
+		71AE909E2398B52B0027B9C6 /* NetworkLayerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE909D2398B52A0027B9C6 /* NetworkLayerMock.swift */; };
+		71AE90A02398B5B80027B9C6 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE909F2398B5B80027B9C6 /* Network.swift */; };
+		71AE90A22398B6740027B9C6 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90A12398B6740027B9C6 /* Book.swift */; };
+		71AE90A42398B6870027B9C6 /* BookListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90A32398B6870027B9C6 /* BookListModel.swift */; };
+		71AE90A62398B6BD0027B9C6 /* BookParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90A52398B6BD0027B9C6 /* BookParser.swift */; };
+		71AE90A82398B6D60027B9C6 /* BookListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90A72398B6D60027B9C6 /* BookListPresenter.swift */; };
+		71AE90AA2398B6FA0027B9C6 /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AE90A92398B6FA0027B9C6 /* BookListViewController.swift */; };
 		71B320232395DC0D001D04E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B320222395DC0D001D04E6 /* AppDelegate.swift */; };
 		71B320252395DC0D001D04E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B320242395DC0D001D04E6 /* SceneDelegate.swift */; };
-		71B320272395DC0D001D04E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B320262395DC0D001D04E6 /* ViewController.swift */; };
 		71B3202A2395DC0D001D04E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B320282395DC0D001D04E6 /* Main.storyboard */; };
 		71B3202D2395DC0D001D04E6 /* NYTBookApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71B3202B2395DC0D001D04E6 /* NYTBookApp.xcdatamodeld */; };
 		71B3202F2395DC0E001D04E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B3202E2395DC0E001D04E6 /* Assets.xcassets */; };
 		71B320322395DC0E001D04E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B320302395DC0E001D04E6 /* LaunchScreen.storyboard */; };
-		71B3203D2395DC0F001D04E6 /* NYTBookAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3203C2395DC0F001D04E6 /* NYTBookAppTests.swift */; };
+		71B3203D2395DC0F001D04E6 /* BookListIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3203C2395DC0F001D04E6 /* BookListIntegrationTests.swift */; };
 		71B320482395DC0F001D04E6 /* NYTBookAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B320472395DC0F001D04E6 /* NYTBookAppUITests.swift */; };
-		7A94AC9AA36569537CC342F9 /* Pods_NYTBookApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5EA0E8D08AFF91C6BF72475 /* Pods_NYTBookApp.framework */; };
-		98875F821DD1A95CA0536E29 /* Pods_NYTBookAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9217170A2BEEB0D7FCE833 /* Pods_NYTBookAppTests.framework */; };
-		F14A9379088C926270B970EB /* Pods_NYTBookApp_NYTBookAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B156811B323EA2035E22028A /* Pods_NYTBookApp_NYTBookAppUITests.framework */; };
+		9B5122D785AD10C2BDDE59BA /* Pods_NYTBookApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DFE2274C7346800206F23F /* Pods_NYTBookApp.framework */; };
+		A5D6D5E8F12608597018CB5D /* Pods_NYTBookAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271EFFB9F95772372C382947 /* Pods_NYTBookAppTests.framework */; };
+		FA45FD8C9E8C894C2882335B /* Pods_NYTBookAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4F6C0F36A51384C8C328F96 /* Pods_NYTBookAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,30 +55,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1897AB6699BA34BCA467F919 /* Pods-NYTBookAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppTests.release.xcconfig"; path = "Target Support Files/Pods-NYTBookAppTests/Pods-NYTBookAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		1E007426A816A6574CC1C334 /* Pods-NYTBookApp-NYTBookAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp-NYTBookAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookApp-NYTBookAppUITests/Pods-NYTBookApp-NYTBookAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		2B9217170A2BEEB0D7FCE833 /* Pods_NYTBookAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		687AF99B09CAE56CADA065B5 /* Pods-NYTBookApp-NYTBookAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp-NYTBookAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTBookApp-NYTBookAppUITests/Pods-NYTBookApp-NYTBookAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		21DFE2274C7346800206F23F /* Pods_NYTBookApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271EFFB9F95772372C382947 /* Pods_NYTBookAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08186C28394FD29B22DAF8 /* Pods-NYTBookApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4446CEA869CB2E309DBED910 /* Pods-NYTBookAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookAppUITests/Pods-NYTBookAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		48A398C6C97C9BE01BE12044 /* Pods-NYTBookAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppUITests.release.xcconfig"; path = "Target Support Files/Pods-NYTBookAppUITests/Pods-NYTBookAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		714783762399678500CC4041 /* BookListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListPresenterTests.swift; sourceTree = "<group>"; };
+		71478378239976B900CC4041 /* BookListModetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListModetTests.swift; sourceTree = "<group>"; };
+		7147837A23997A1E00CC4041 /* BookDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailPresenter.swift; sourceTree = "<group>"; };
+		7147837C23997A4000CC4041 /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		7147837E239A08BD00CC4041 /* BookCoreDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoreDataParser.swift; sourceTree = "<group>"; };
+		71478380239A22A800CC4041 /* BookParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookParserTests.swift; sourceTree = "<group>"; };
+		71478382239A251400CC4041 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
+		71478384239A30D200CC4041 /* BookCoreDataParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCoreDataParserTests.swift; sourceTree = "<group>"; };
+		71AE90952398AF2B0027B9C6 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
+		71AE90972398B0560027B9C6 /* HTTPStubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPStubs.swift; sourceTree = "<group>"; };
+		71AE909D2398B52A0027B9C6 /* NetworkLayerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLayerMock.swift; sourceTree = "<group>"; };
+		71AE909F2398B5B80027B9C6 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		71AE90A12398B6740027B9C6 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		71AE90A32398B6870027B9C6 /* BookListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListModel.swift; sourceTree = "<group>"; };
+		71AE90A52398B6BD0027B9C6 /* BookParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookParser.swift; sourceTree = "<group>"; };
+		71AE90A72398B6D60027B9C6 /* BookListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListPresenter.swift; sourceTree = "<group>"; };
+		71AE90A92398B6FA0027B9C6 /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
 		71B3201F2395DC0D001D04E6 /* NYTBookApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NYTBookApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B320222395DC0D001D04E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B320242395DC0D001D04E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		71B320262395DC0D001D04E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71B320292395DC0D001D04E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		71B3202C2395DC0D001D04E6 /* NYTBookApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NYTBookApp.xcdatamodel; sourceTree = "<group>"; };
 		71B3202E2395DC0E001D04E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B320312395DC0E001D04E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B320332395DC0E001D04E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B320382395DC0E001D04E6 /* NYTBookAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTBookAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		71B3203C2395DC0F001D04E6 /* NYTBookAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTBookAppTests.swift; sourceTree = "<group>"; };
+		71B3203C2395DC0F001D04E6 /* BookListIntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListIntegrationTests.swift; sourceTree = "<group>"; };
 		71B3203E2395DC0F001D04E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71B320432395DC0F001D04E6 /* NYTBookAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYTBookAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B320472395DC0F001D04E6 /* NYTBookAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYTBookAppUITests.swift; sourceTree = "<group>"; };
 		71B320492395DC0F001D04E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BF3249CDF5D6FF09AC80B1E /* Pods-NYTBookApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp.debug.xcconfig"; sourceTree = "<group>"; };
-		892B00312131795613DD73F0 /* Pods-NYTBookApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp.release.xcconfig"; path = "Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp.release.xcconfig"; sourceTree = "<group>"; };
-		A5EA0E8D08AFF91C6BF72475 /* Pods_NYTBookApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B156811B323EA2035E22028A /* Pods_NYTBookApp_NYTBookAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookApp_NYTBookAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EDE72BFBC3DE123F2BA52C17 /* Pods-NYTBookAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookAppTests/Pods-NYTBookAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7526929F7187FB0157D68BE3 /* Pods-NYTBookAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppTests.release.xcconfig"; path = "Target Support Files/Pods-NYTBookAppTests/Pods-NYTBookAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		A312C6F6645F0E9A941A0592 /* Pods-NYTBookAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookAppTests.debug.xcconfig"; path = "Target Support Files/Pods-NYTBookAppTests/Pods-NYTBookAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4F6C0F36A51384C8C328F96 /* Pods_NYTBookAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NYTBookAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABA47A469F448B0F1078926 /* Pods-NYTBookApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NYTBookApp.release.xcconfig"; path = "Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A94AC9AA36569537CC342F9 /* Pods_NYTBookApp.framework in Frameworks */,
+				9B5122D785AD10C2BDDE59BA /* Pods_NYTBookApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98875F821DD1A95CA0536E29 /* Pods_NYTBookAppTests.framework in Frameworks */,
+				A5D6D5E8F12608597018CB5D /* Pods_NYTBookAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,13 +118,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14A9379088C926270B970EB /* Pods_NYTBookApp_NYTBookAppUITests.framework in Frameworks */,
+				FA45FD8C9E8C894C2882335B /* Pods_NYTBookAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EC4DBEBF7580E65C333563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21DFE2274C7346800206F23F /* Pods_NYTBookApp.framework */,
+				271EFFB9F95772372C382947 /* Pods_NYTBookAppTests.framework */,
+				C4F6C0F36A51384C8C328F96 /* Pods_NYTBookAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71AE90992398B4E60027B9C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71AE909F2398B5B80027B9C6 /* Network.swift */,
+				71AE90A12398B6740027B9C6 /* Book.swift */,
+				71AE90A32398B6870027B9C6 /* BookListModel.swift */,
+				71AE90A52398B6BD0027B9C6 /* BookParser.swift */,
+				7147837E239A08BD00CC4041 /* BookCoreDataParser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		71AE909A2398B4EF0027B9C6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71AE90A92398B6FA0027B9C6 /* BookListViewController.swift */,
+				7147837C23997A4000CC4041 /* BookDetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		71AE909B2398B4F80027B9C6 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				71AE90A72398B6D60027B9C6 /* BookListPresenter.swift */,
+				7147837A23997A1E00CC4041 /* BookDetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		71AE909C2398B5090027B9C6 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				71AE909D2398B52A0027B9C6 /* NetworkLayerMock.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		71B320162395DC0D001D04E6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,7 +181,7 @@
 				71B320462395DC0F001D04E6 /* NYTBookAppUITests */,
 				71B320202395DC0D001D04E6 /* Products */,
 				D779ED7358CC6532EA157064 /* Pods */,
-				90B66D9520C0660A2AC514ED /* Frameworks */,
+				42EC4DBEBF7580E65C333563 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,9 +198,11 @@
 		71B320212395DC0D001D04E6 /* NYTBookApp */ = {
 			isa = PBXGroup;
 			children = (
+				71AE909B2398B4F80027B9C6 /* Presenter */,
+				71AE909A2398B4EF0027B9C6 /* View */,
+				71AE90992398B4E60027B9C6 /* Model */,
 				71B320222395DC0D001D04E6 /* AppDelegate.swift */,
 				71B320242395DC0D001D04E6 /* SceneDelegate.swift */,
-				71B320262395DC0D001D04E6 /* ViewController.swift */,
 				71B320282395DC0D001D04E6 /* Main.storyboard */,
 				71B3202E2395DC0E001D04E6 /* Assets.xcassets */,
 				71B320302395DC0E001D04E6 /* LaunchScreen.storyboard */,
@@ -133,8 +215,14 @@
 		71B3203B2395DC0F001D04E6 /* NYTBookAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				71B3203C2395DC0F001D04E6 /* NYTBookAppTests.swift */,
+				71478382239A251400CC4041 /* book.json */,
+				71AE909C2398B5090027B9C6 /* Helper */,
+				71B3203C2395DC0F001D04E6 /* BookListIntegrationTests.swift */,
 				71B3203E2395DC0F001D04E6 /* Info.plist */,
+				714783762399678500CC4041 /* BookListPresenterTests.swift */,
+				71478378239976B900CC4041 /* BookListModetTests.swift */,
+				71478380239A22A800CC4041 /* BookParserTests.swift */,
+				71478384239A30D200CC4041 /* BookCoreDataParserTests.swift */,
 			);
 			path = NYTBookAppTests;
 			sourceTree = "<group>";
@@ -143,32 +231,23 @@
 			isa = PBXGroup;
 			children = (
 				71B320472395DC0F001D04E6 /* NYTBookAppUITests.swift */,
+				71AE90952398AF2B0027B9C6 /* book.json */,
 				71B320492395DC0F001D04E6 /* Info.plist */,
+				71AE90972398B0560027B9C6 /* HTTPStubs.swift */,
 			);
 			path = NYTBookAppUITests;
-			sourceTree = "<group>";
-		};
-		90B66D9520C0660A2AC514ED /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				A5EA0E8D08AFF91C6BF72475 /* Pods_NYTBookApp.framework */,
-				B156811B323EA2035E22028A /* Pods_NYTBookApp_NYTBookAppUITests.framework */,
-				2B9217170A2BEEB0D7FCE833 /* Pods_NYTBookAppTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D779ED7358CC6532EA157064 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BF3249CDF5D6FF09AC80B1E /* Pods-NYTBookApp.debug.xcconfig */,
-				892B00312131795613DD73F0 /* Pods-NYTBookApp.release.xcconfig */,
-				1E007426A816A6574CC1C334 /* Pods-NYTBookApp-NYTBookAppUITests.debug.xcconfig */,
-				687AF99B09CAE56CADA065B5 /* Pods-NYTBookApp-NYTBookAppUITests.release.xcconfig */,
-				EDE72BFBC3DE123F2BA52C17 /* Pods-NYTBookAppTests.debug.xcconfig */,
-				1897AB6699BA34BCA467F919 /* Pods-NYTBookAppTests.release.xcconfig */,
+				3D08186C28394FD29B22DAF8 /* Pods-NYTBookApp.debug.xcconfig */,
+				EABA47A469F448B0F1078926 /* Pods-NYTBookApp.release.xcconfig */,
+				A312C6F6645F0E9A941A0592 /* Pods-NYTBookAppTests.debug.xcconfig */,
+				7526929F7187FB0157D68BE3 /* Pods-NYTBookAppTests.release.xcconfig */,
+				4446CEA869CB2E309DBED910 /* Pods-NYTBookAppUITests.debug.xcconfig */,
+				48A398C6C97C9BE01BE12044 /* Pods-NYTBookAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -179,11 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B3204C2395DC0F001D04E6 /* Build configuration list for PBXNativeTarget "NYTBookApp" */;
 			buildPhases = (
-				BCA1E1AEC76804A423C602DB /* [CP] Check Pods Manifest.lock */,
+				7DC2818D19851B54F9D3B4F0 /* [CP] Check Pods Manifest.lock */,
 				71B3201B2395DC0D001D04E6 /* Sources */,
 				71B3201C2395DC0D001D04E6 /* Frameworks */,
 				71B3201D2395DC0D001D04E6 /* Resources */,
-				BB332F6318E9F92A69029E99 /* [CP] Embed Pods Frameworks */,
+				CF9DAC17CCB10C1A0A1E1E2B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,7 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B3204F2395DC0F001D04E6 /* Build configuration list for PBXNativeTarget "NYTBookAppTests" */;
 			buildPhases = (
-				BB8E1316A8FB25CA919B595A /* [CP] Check Pods Manifest.lock */,
+				F2F7C7F6FC2941D642A99C56 /* [CP] Check Pods Manifest.lock */,
 				71B320342395DC0E001D04E6 /* Sources */,
 				71B320352395DC0E001D04E6 /* Frameworks */,
 				71B320362395DC0E001D04E6 /* Resources */,
@@ -217,11 +296,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71B320522395DC0F001D04E6 /* Build configuration list for PBXNativeTarget "NYTBookAppUITests" */;
 			buildPhases = (
-				F0F0EF9646B81EA3E9C04B76 /* [CP] Check Pods Manifest.lock */,
+				0D2EABAEF7ED44EA705643C6 /* [CP] Check Pods Manifest.lock */,
 				71B3203F2395DC0F001D04E6 /* Sources */,
 				71B320402395DC0F001D04E6 /* Frameworks */,
 				71B320412395DC0F001D04E6 /* Resources */,
-				9498256C71FA9990B979313D /* [CP] Embed Pods Frameworks */,
+				F5D9AB00EC862F6B894ED430 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -291,6 +370,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71478383239A251400CC4041 /* book.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,47 +378,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AE90962398AF2B0027B9C6 /* book.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9498256C71FA9990B979313D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp-NYTBookAppUITests/Pods-NYTBookApp-NYTBookAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp-NYTBookAppUITests/Pods-NYTBookApp-NYTBookAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp-NYTBookAppUITests/Pods-NYTBookApp-NYTBookAppUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB332F6318E9F92A69029E99 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB8E1316A8FB25CA919B595A /* [CP] Check Pods Manifest.lock */ = {
+		0D2EABAEF7ED44EA705643C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -353,14 +400,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NYTBookAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NYTBookAppUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCA1E1AEC76804A423C602DB /* [CP] Check Pods Manifest.lock */ = {
+		7DC2818D19851B54F9D3B4F0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,7 +429,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F0F0EF9646B81EA3E9C04B76 /* [CP] Check Pods Manifest.lock */ = {
+		CF9DAC17CCB10C1A0A1E1E2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYTBookApp/Pods-NYTBookApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2F7C7F6FC2941D642A99C56 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,11 +461,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NYTBookApp-NYTBookAppUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NYTBookAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5D9AB00EC862F6B894ED430 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYTBookAppUITests/Pods-NYTBookAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NYTBookAppUITests/Pods-NYTBookAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NYTBookAppUITests/Pods-NYTBookAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -411,10 +492,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B320272395DC0D001D04E6 /* ViewController.swift in Sources */,
+				71AE90A02398B5B80027B9C6 /* Network.swift in Sources */,
+				71AE90A22398B6740027B9C6 /* Book.swift in Sources */,
+				71AE90A62398B6BD0027B9C6 /* BookParser.swift in Sources */,
+				71AE90A82398B6D60027B9C6 /* BookListPresenter.swift in Sources */,
+				7147837D23997A4000CC4041 /* BookDetailViewController.swift in Sources */,
+				7147837B23997A1E00CC4041 /* BookDetailPresenter.swift in Sources */,
 				71B320232395DC0D001D04E6 /* AppDelegate.swift in Sources */,
+				71AE90A42398B6870027B9C6 /* BookListModel.swift in Sources */,
 				71B3202D2395DC0D001D04E6 /* NYTBookApp.xcdatamodeld in Sources */,
 				71B320252395DC0D001D04E6 /* SceneDelegate.swift in Sources */,
+				7147837F239A08BD00CC4041 /* BookCoreDataParser.swift in Sources */,
+				71AE90AA2398B6FA0027B9C6 /* BookListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,7 +511,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71B3203D2395DC0F001D04E6 /* NYTBookAppTests.swift in Sources */,
+				71478381239A22A800CC4041 /* BookParserTests.swift in Sources */,
+				714783772399678500CC4041 /* BookListPresenterTests.swift in Sources */,
+				71478385239A30D200CC4041 /* BookCoreDataParserTests.swift in Sources */,
+				71AE909E2398B52B0027B9C6 /* NetworkLayerMock.swift in Sources */,
+				71478379239976B900CC4041 /* BookListModetTests.swift in Sources */,
+				71B3203D2395DC0F001D04E6 /* BookListIntegrationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B320482395DC0F001D04E6 /* NYTBookAppUITests.swift in Sources */,
+				71AE90982398B0560027B9C6 /* HTTPStubs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,10 +680,11 @@
 		};
 		71B3204D2395DC0F001D04E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BF3249CDF5D6FF09AC80B1E /* Pods-NYTBookApp.debug.xcconfig */;
+			baseConfigurationReference = 3D08186C28394FD29B22DAF8 /* Pods-NYTBookApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NYTBookApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,17 +692,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirawan.NYTBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		71B3204E2395DC0F001D04E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 892B00312131795613DD73F0 /* Pods-NYTBookApp.release.xcconfig */;
+			baseConfigurationReference = EABA47A469F448B0F1078926 /* Pods-NYTBookApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = NYTBookApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,14 +712,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.wirawan.NYTBookApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		71B320502395DC0F001D04E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDE72BFBC3DE123F2BA52C17 /* Pods-NYTBookAppTests.debug.xcconfig */;
+			baseConfigurationReference = A312C6F6645F0E9A941A0592 /* Pods-NYTBookAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -643,7 +742,7 @@
 		};
 		71B320512395DC0F001D04E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1897AB6699BA34BCA467F919 /* Pods-NYTBookAppTests.release.xcconfig */;
+			baseConfigurationReference = 7526929F7187FB0157D68BE3 /* Pods-NYTBookAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -665,7 +764,7 @@
 		};
 		71B320532395DC0F001D04E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E007426A816A6574CC1C334 /* Pods-NYTBookApp-NYTBookAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 4446CEA869CB2E309DBED910 /* Pods-NYTBookAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -685,7 +784,7 @@
 		};
 		71B320542395DC0F001D04E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687AF99B09CAE56CADA065B5 /* Pods-NYTBookApp-NYTBookAppUITests.release.xcconfig */;
+			baseConfigurationReference = 48A398C6C97C9BE01BE12044 /* Pods-NYTBookAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

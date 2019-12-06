@@ -7,37 +7,40 @@
 //
 
 import XCTest
+import Swifter
 
 class NYTBookAppUITests: XCTestCase {
 
+    let app = XCUIApplication()
+    let dynamicStubs = HTTPDynamicStubs()
+
     override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
-        // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        dynamicStubs.setUp()
+        app.launchEnvironment = ["BASEURL" : "http://localhost:8080", "isUITest":"true"]
+        continueAfterFailure = false
+        super.setUp()
     }
 
     override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        super.tearDown()
+        dynamicStubs.tearDown()
     }
 
-    func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+    func testShowingBookNameAndAuthorName() {
+        dynamicStubs.setupStub(url: "/lists/2018-12-01/hardcover-fiction.json?api-key=e6KgPoesflp7DH5ZZ3M2l8Oh4OlOSchv", filename: "book", method: .GET)
         app.launch()
 
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+        let tablesQuery = app.tables
 
-    func testLaunchPerformance() {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
-            // This measures how long it takes to launch your application.
-            measure(metrics: [XCTOSSignpostMetric.applicationLaunch]) {
-                XCUIApplication().launch()
-            }
-        }
+        // Assert on first book
+        XCTAssertTrue(tablesQuery.cells.staticTexts["LOOK ALIVE TWENTY-FIVE"].exists, "Failure: did not show the first book name.")
+        XCTAssertTrue(tablesQuery.cells.staticTexts["Janet Evanovich"].exists, "Failure: did not show the first book author.")
+
+        tablesQuery.cells.element(boundBy: 0).tap();
+
+        // Assert on first book
+        XCTAssertTrue(tablesQuery.cells.staticTexts["LOOK ALIVE TWENTY-FIVE"].exists, "Failure: did not show the first book name.")
+        XCTAssertTrue(tablesQuery.cells.staticTexts["Janet Evanovich"].exists, "Failure: did not show the first book author.")
     }
 }
